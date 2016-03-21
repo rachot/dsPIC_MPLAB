@@ -1,0 +1,587 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+CODE_PROT_OFF	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	117;"	v	line:117
+CO_ROUTINE_H	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	71;"	d	line:71
+CRCB_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	99;"	t	line:99
+Cnt_A	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	120;"	v	line:120
+Cnt_B	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	120;"	v	line:120
+CoRoutineHandle_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	86;"	t	line:86
+FREERTOS_CONFIG_H	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	71;"	d	line:71
+INCLUDE_uxTaskPriorityGet::0	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	109;"	d	line:109
+INCLUDE_vTaskCleanUpResources::0	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	111;"	d	line:111
+INCLUDE_vTaskDelay::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	114;"	d	line:114
+INCLUDE_vTaskDelayUntil::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	113;"	d	line:113
+INCLUDE_vTaskDelete::0	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	110;"	d	line:110
+INCLUDE_vTaskPrioritySet::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	108;"	d	line:108
+INCLUDE_vTaskSuspend::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	112;"	d	line:112
+INC_TASK_H	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	72;"	d	line:72
+MCLR_EN	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	116;"	v	line:116
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	83;"	d	line:83	file:
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	88;"	d	line:88	file:
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	76;"	d	line:76	file:
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	77;"	d	line:77	file:
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	90;"	d	line:90	file:
+MPU_WRAPPERS_INCLUDED_FROM_API_FILE::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	89;"	d	line:89	file:
+MemoryRegion_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	148;"	t	line:148
+QUEUE_H	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	72;"	d	line:72
+QUEUE_REGISTRY_ITEM	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	178;"	s	line:178	file:
+QueueDefinition	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	130;"	s	line:130	file:
+QueueHandle_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	88;"	t	line:88
+QueueRegistryItem_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	187;"	t	line:187	file:
+QueueSetHandle_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	95;"	t	line:95
+QueueSetMemberHandle_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	102;"	t	line:102
+Queue_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	165;"	t	line:165	file:
+TASK_A_PRIO::3	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	149;"	d	line:149	file:
+TASK_A_STK::100	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	151;"	d	line:151	file:
+TASK_B_PRIO::2	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	150;"	d	line:150	file:
+TASK_B_STK::100	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	152;"	d	line:152	file:
+TCB_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	199;"	t	line:199	file:
+TaskHandle_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	103;"	t	line:103
+TaskHookFunction_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	109;"	t	line:109
+TaskParameters_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	162;"	t	line:162
+TaskStatus_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	176;"	t	line:176
+Task_A	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	155;"	f	line:155	file:	signature:( void *pvParameters )
+Task_B	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	167;"	f	line:167	file:	signature:( void *pvParameters )
+TimeOut_t	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	138;"	t	line:138
+WDT_OFF	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	115;"	v	line:115
+XT_PLL16	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	113;"	v	line:113
+_vPortYield	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S	76;"	l	line:76
+cStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3658;"	l	line:3658
+configADJUSTED_HEAP_SIZE::(configTOTAL_HEAP_SIZE-portBYT	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	91;"	d	line:91	file:
+configCPU_CLOCK_HZ::((unsignedlong)73728000)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	92;"	d	line:92
+configIDLE_SHOULD_YIELD::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	99;"	d	line:99
+configKERNEL_INTERRUPT_PRIORITY::0x01	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	117;"	d	line:117
+configKERNEL_INTERRUPT_PRIORITY::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	92;"	d	line:92	file:
+configMAX_CO_ROUTINE_PRIORITIES::(2)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	103;"	d	line:103
+configMAX_PRIORITIES::(4)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	93;"	d	line:93
+configMAX_TASK_NAME_LEN::(4)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	96;"	d	line:96
+configMINIMAL_STACK_SIZE::(105)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	94;"	d	line:94
+configTICK_INTERRUPT_HANDLER	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	365;"	f	line:365	signature:( void )
+configTICK_INTERRUPT_HANDLER::_T1Interrupt	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	98;"	d	line:98	file:
+configTICK_RATE_HZ::((TickType_t)1000)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	91;"	d	line:91
+configTOTAL_HEAP_SIZE::((size_t)600)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	95;"	d	line:95
+configUSE_16_BIT_TICKS::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	98;"	d	line:98
+configUSE_CO_ROUTINES::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	102;"	d	line:102
+configUSE_IDLE_HOOK::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	89;"	d	line:89
+configUSE_PREEMPTION::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	88;"	d	line:88
+configUSE_TICK_HOOK::0	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	90;"	d	line:90
+configUSE_TRACE_FACILITY::0	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\FreeRTOSConfig.h	97;"	d	line:97
+corCoRoutineControlBlock	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	91;"	s	line:91
+corINITIAL_STATE::(0)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	100;"	d	line:100	file:
+crCOROUTINE_CODE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	89;"	t	line:89
+crDELAY::(xHandle,xTicksToDelay)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	337;"	d	line:337
+crEND::}	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	277;"	d	line:277
+crQUEUE_RECEIVE::(xHandle,pxQueue,pvBuffer,xTic	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	527;"	d	line:527
+crQUEUE_RECEIVE_FROM_ISR::(pxQueue,pvBuffer,pxCoRoutineW	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	736;"	d	line:736
+crQUEUE_SEND::(xHandle,pxQueue,pvItemToQueue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	435;"	d	line:435
+crQUEUE_SEND_FROM_ISR::(pxQueue,pvItemToQueue,xCoRout	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	623;"	d	line:623
+crSET_STATE0::(xHandle)((CRCB_t*)(xHandle))-	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	283;"	d	line:283
+crSET_STATE1::(xHandle)((CRCB_t*)(xHandle))-	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	284;"	d	line:284
+crSTART::(pxCRCB)switch(((CRCB_t*)(pxCR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	246;"	d	line:246
+eAbortSleep	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	181;"	e	line:181
+eBlocked	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	116;"	e	line:116
+eCurrentState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	171;"	m	line:171	struct:xTASK_STATUS
+eDeleted	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	118;"	e	line:118
+eIncrement	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	126;"	e	line:126
+eNoAction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	124;"	e	line:124
+eNoTasksWaitingTimeout	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	183;"	e	line:183
+eNotWaitingNotification	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	124;"	e	line:124	file:
+eNotified	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	126;"	e	line:126	file:
+eNotifyAction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	129;"	t	line:129
+eNotifyState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	192;"	m	line:192	struct:tskTaskControlBlock	file:
+eNotifyValue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	127;"	t	line:127	file:
+eOriginalNotifyState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4142;"	l	line:4142
+eOriginalNotifyState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4248;"	l	line:4248
+eOriginalNotifyState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4365;"	l	line:4365
+eReady	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	115;"	e	line:115
+eReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2799;"	l	line:2799
+eReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	990;"	l	line:990
+eRunning	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	114;"	e	line:114
+eSetBits	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	125;"	e	line:125
+eSetValueWithOverwrite	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	127;"	e	line:127
+eSetValueWithoutOverwrite	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	128;"	e	line:128
+eSleepModeStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	184;"	t	line:184
+eStandardSleep	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	182;"	e	line:182
+eSuspended	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	117;"	e	line:117
+eTaskConfirmSleepModeStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2795;"	f	line:2795	signature:( void )
+eTaskGetState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	988;"	f	line:988	signature:( TaskHandle_t xTask )
+eTaskState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	119;"	t	line:119
+eWaitingNotification	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	125;"	e	line:125	file:
+i	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	207;"	l	line:207
+main	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	179;"	f	line:179	signature:( void )
+mainCHECK_TAKS_STACK_SIZE::(configMINIMAL_STACK_SIZE*2)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	124;"	d	line:124	file:
+mainCHECK_TASK_PERIOD::((TickType_t)3000/portTICK_PER	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	127;"	d	line:127	file:
+mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS::(configCPU_CLOCK_HZ/mainTEST_I	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	137;"	d	line:137	file:
+mainMAX_STRING_LENGTH::(20)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	144;"	d	line:144	file:
+mainNS_PER_CLOCK::((unsignedshort)((1.0/(double)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	140;"	d	line:140	file:
+mainNUM_FLASH_COROUTINES::(5)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	130;"	d	line:130	file:
+mainTEST_INTERRUPT_FREQUENCY::(20000)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	133;"	d	line:133	file:
+pcHead	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	132;"	m	line:132	struct:QueueDefinition	file:
+pcName	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	156;"	m	line:156	struct:xTASK_PARAMETERS
+pcQueueName	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	180;"	m	line:180	struct:QUEUE_REGISTRY_ITEM	file:
+pcReadFrom	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	138;"	m	line:138	union:QueueDefinition::<anonymous>	file:
+pcTail	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	133;"	m	line:133	struct:QueueDefinition	file:
+pcTaskGetTaskName	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1820;"	f	line:1820	signature:( TaskHandle_t xTaskToQuery )
+pcTaskName	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	169;"	m	line:169	struct:xTASK_STATUS
+pcTaskName	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	147;"	m	line:147	struct:tskTaskControlBlock	file:
+pcWriteTo	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	134;"	m	line:134	struct:QueueDefinition	file:
+portBIT_SET::1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	85;"	d	line:85	file:
+portINITIAL_SR::0	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	87;"	d	line:87	file:
+portRESET_READY_PRIORITY::(uxPriority,uxTopReadyPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	327;"	d	line:327	file:
+portRESTORE_CONTEXT::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	132;"	d	line:132	file:
+portRESTORE_CONTEXT::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	151;"	d	line:151	file:
+portRESTORE_CONTEXT::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	185;"	d	line:185	file:
+portTASK_FUNCTION	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2690;"	f	line:2690	file:
+portTASK_FUNCTION_PROTO	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	460;"	p	line:460	file:
+portTIMER_PRESCALE::8	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	86;"	d	line:86	file:
+portUNUSED_PR_BITS::0x7f	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	102;"	d	line:102	file:
+prvAddCoRoutineToReadyQueue::(pxCRCB)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	116;"	d	line:116	file:
+prvAddCurrentTaskToDelayedList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3071;"	f	line:3071	file:	signature:( const TickType_t xTimeToWake )
+prvAddTaskToReadyList::(pxTCB)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	392;"	d	line:392	file:
+prvAllocateTCBAndStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3101;"	f	line:3101	file:	signature:( const uint16_t usStackDepth, StackType_t * const puxStackBuffer )
+prvCheckDelayedList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	140;"	p	line:140	file:	signature:( void )
+prvCheckDelayedList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	262;"	f	line:262	file:	signature:( void )
+prvCheckPendingReadyList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	130;"	p	line:130	file:	signature:( void )
+prvCheckPendingReadyList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	239;"	f	line:239	file:	signature:( void )
+prvCheckTasksWaitingTermination	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3030;"	f	line:3030	file:	signature:( void )
+prvDeleteTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3311;"	f	line:3311	file:	signature:( TCB_t *pxTCB )
+prvGetExpectedIdleTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1645;"	f	line:1645	file:	signature:( void )
+prvGetTCBFromHandle::(pxHandle)(((pxHandle)==NULL)?	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	401;"	d	line:401	file:
+prvInitialiseCoRoutineLists	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	122;"	p	line:122	file:	signature:( void )
+prvInitialiseCoRoutineLists	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	350;"	f	line:350	file:	signature:( void )
+prvInitialiseTCBVariables	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2833;"	f	line:2833	file:	signature:( TCB_t * const pxTCB, const char * const pcName, UBaseType_t uxPriority, const MemoryRegion_t * const xRegions, const uint16_t usStackDepth )
+prvInitialiseTaskLists	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2998;"	f	line:2998	file:	signature:( void )
+prvListTaskWithinSingleList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3178;"	f	line:3178	file:	signature:( TaskStatus_t *pxTaskStatusArray, List_t *pxList, eTaskState eState )
+prvLockQueue::(pxQueue)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	257;"	d	line:257	file:
+prvResetNextTaskUnblockTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3347;"	f	line:3347	file:	signature:( void )
+prvResetNextTaskUnblockTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	538;"	p	line:538	file:	signature:( void )
+prvSetupHardware	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	147;"	p	line:147	file:	signature:( void )
+prvSetupHardware	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	190;"	f	line:190	file:	signature:( void )
+prvTaskCheckFreeStackSpace	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3263;"	f	line:3263	file:	signature:( const uint8_t * pucStackByte )
+prvTaskIsTaskSuspended	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1373;"	f	line:1373	file:	signature:( const TaskHandle_t xTask )
+prvWriteNameToBuffer	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3628;"	f	line:3628	file:	signature:( char *pcBuffer, const char *pcTaskName )
+prvWriteNameToBuffer	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	546;"	p	line:546	file:	signature:( char *pcBuffer, const char *pcTaskName )
+pucAlignedHeap	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	102;"	l	line:102	file:
+pucEndOfStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3286;"	l	line:3286
+puxStackBuffer	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	160;"	m	line:160	struct:xTASK_PARAMETERS
+pvBaseAddress	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	145;"	m	line:145	struct:xMEMORY_REGION
+pvParameters	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	158;"	m	line:158	struct:xTASK_PARAMETERS
+pvPortMalloc	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	99;"	f	line:99	signature:( size_t xWantedSize )
+pvReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	101;"	l	line:101
+pvReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2963;"	l	line:2963
+pvTaskCode	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	155;"	m	line:155	struct:xTASK_PARAMETERS
+pvTaskGetThreadLocalStoragePointer	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2961;"	f	line:2961	signature:( TaskHandle_t xTaskToQuery, BaseType_t xIndex )
+pvTaskIncrementMutexHeldCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3884;"	f	line:3884	signature:( void )
+pvThreadLocalStoragePointers	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	172;"	m	line:172	struct:tskTaskControlBlock	file:
+pxCRCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	264;"	l	line:264
+pxCoRoutine	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	147;"	l	line:147
+pxCoRoutineFunction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	93;"	m	line:93	struct:corCoRoutineControlBlock
+pxCurrentCoRoutine	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	95;"	v	line:95
+pxCurrentTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	212;"	v	line:212
+pxDelayedCoRoutineList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	90;"	v	line:90	file:
+pxDelayedTaskList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	218;"	v	line:218	file:
+pxEndOfStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	150;"	m	line:150	struct:tskTaskControlBlock	file:
+pxFirstTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3180;"	l	line:3180
+pxIndex	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	118;"	l	line:118
+pxIterator	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	147;"	l	line:147
+pxList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	216;"	l	line:216
+pxMutex	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	488;"	l	line:488
+pxMutex	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	543;"	l	line:543
+pxMutexHolder::pcTail	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	108;"	d	line:108	file:
+pxNewQueue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	315;"	l	line:315
+pxNewQueue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	393;"	l	line:393
+pxNewTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3103;"	l	line:3103
+pxNewTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	554;"	l	line:554
+pxNextTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3180;"	l	line:3180
+pxOverflowDelayedCoRoutineList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	91;"	v	line:91	file:
+pxOverflowDelayedTaskList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	219;"	v	line:219	file:
+pxPortInitialiseStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	204;"	f	line:204	signature:( StackType_t *pxTopOfStack, TaskFunction_t pxCode, void *pvParameters )
+pxQueue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	262;"	l	line:262
+pxQueueSetContainer	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	158;"	m	line:158	struct:QueueDefinition	file:
+pxReadyCoRoutineLists	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	87;"	v	line:87	file:
+pxReadyTasksLists	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	215;"	v	line:215	file:
+pxReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	457;"	l	line:457
+pxStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	146;"	m	line:146	struct:tskTaskControlBlock	file:
+pxStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3131;"	l	line:3131
+pxStateList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	991;"	l	line:991
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1060;"	l	line:1060
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1082;"	l	line:1082
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1122;"	l	line:1122
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1286;"	l	line:1286
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1376;"	l	line:1376
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1421;"	l	line:1421
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1476;"	l	line:1476
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1673;"	l	line:1673
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1822;"	l	line:1822
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1941;"	l	line:1941
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2646;"	l	line:2646
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2668;"	l	line:2668
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2947;"	l	line:2947
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2964;"	l	line:2964
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2986;"	l	line:2986
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3048;"	l	line:3048
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3285;"	l	line:3285
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3349;"	l	line:3349
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3420;"	l	line:3420
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3486;"	l	line:3486
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4141;"	l	line:4141
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4247;"	l	line:4247
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4364;"	l	line:4364
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4446;"	l	line:4446
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	746;"	l	line:746
+pxTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	992;"	l	line:992
+pxTaskStatusArray	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3656;"	l	line:3656
+pxTaskStatusArray	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3748;"	l	line:3748
+pxTaskTag	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	168;"	m	line:168	struct:tskTaskControlBlock	file:
+pxTemp	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	275;"	l	line:275
+pxTopOfStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	136;"	m	line:136	struct:tskTaskControlBlock	file:
+pxTopOfStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	555;"	l	line:555
+pxUnblockedCRCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	246;"	l	line:246
+pxUnblockedCRCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	372;"	l	line:372
+pxUnblockedTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2467;"	l	line:2467
+pxUnblockedTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2535;"	l	line:2535
+queueLOCKED_UNMODIFIED::((BaseType_t)0)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	95;"	d	line:95	file:
+queueMUTEX_GIVE_BLOCK_TIME::((TickType_t)0U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	115;"	d	line:115	file:
+queueOVERWRITE::((BaseType_t)2)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	107;"	d	line:107
+queueQUEUE_IS_MUTEX::NULL	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	110;"	d	line:110	file:
+queueQUEUE_TYPE_BASE::((uint8_t)0U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	110;"	d	line:110
+queueQUEUE_TYPE_BINARY_SEMAPHORE::((uint8_t)3U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	114;"	d	line:114
+queueQUEUE_TYPE_COUNTING_SEMAPHORE::((uint8_t)2U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	113;"	d	line:113
+queueQUEUE_TYPE_MUTEX::((uint8_t)1U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	112;"	d	line:112
+queueQUEUE_TYPE_RECURSIVE_MUTEX::((uint8_t)4U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	115;"	d	line:115
+queueQUEUE_TYPE_SET::((uint8_t)0U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	111;"	d	line:111
+queueSEMAPHORE_QUEUE_ITEM_LENGTH::((UBaseType_t)0)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	114;"	d	line:114	file:
+queueSEND_TO_BACK::((BaseType_t)0)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	105;"	d	line:105
+queueSEND_TO_FRONT::((BaseType_t)1)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	106;"	d	line:106
+queueUNLOCKED::((BaseType_t)-1)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	94;"	d	line:94	file:
+queueYIELD_IF_USING_PREEMPTION::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	120;"	d	line:120	file:
+queueYIELD_IF_USING_PREEMPTION::portYIELD_WITHIN_API	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	122;"	d	line:122	file:
+static	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	82;"	d	line:82	file:
+static	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	206;"	d	line:206	file:
+taskDISABLE_INTERRUPTS::portDISABLE_INTERRUPTS	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	241;"	d	line:241
+taskENABLE_INTERRUPTS::portENABLE_INTERRUPTS	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	251;"	d	line:251
+taskENTER_CRITICAL::portENTER_CRITICAL	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	216;"	d	line:216
+taskENTER_CRITICAL_FROM_ISR::portSET_INTERRUPT_MASK_FROM_IS	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	217;"	d	line:217
+taskEVENT_LIST_ITEM_VALUE_IN_USE::0x80000000UL	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	414;"	d	line:414	file:
+taskEVENT_LIST_ITEM_VALUE_IN_USE::0x8000U	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	412;"	d	line:412	file:
+taskEXIT_CRITICAL::portEXIT_CRITICAL	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	231;"	d	line:231
+taskEXIT_CRITICAL_FROM_ISR::(x)portCLEAR_INTERRUPT_MASK_FR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	232;"	d	line:232
+taskRECORD_READY_PRIORITY::(uxPriority)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	303;"	d	line:303	file:
+taskRECORD_READY_PRIORITY::(uxPriority)portRECORD_READY_P	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	336;"	d	line:336	file:
+taskRESET_READY_PRIORITY::(uxPriority)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	326;"	d	line:326	file:
+taskRESET_READY_PRIORITY::(uxPriority)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	361;"	d	line:361	file:
+taskSCHEDULER_NOT_STARTED::((BaseType_t)1)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	257;"	d	line:257
+taskSCHEDULER_RUNNING::((BaseType_t)2)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	258;"	d	line:258
+taskSCHEDULER_SUSPENDED::((BaseType_t)0)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	256;"	d	line:256
+taskSELECT_HIGHEST_PRIORITY_TASK::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	319;"	d	line:319	file:
+taskSELECT_HIGHEST_PRIORITY_TASK::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	348;"	d	line:348	file:
+taskSWITCH_DELAYED_LISTS::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	381;"	d	line:381	file:
+taskYIELD::portYIELD	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	202;"	d	line:202
+taskYIELD_IF_USING_PREEMPTION::	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	116;"	d	line:116	file:
+taskYIELD_IF_USING_PREEMPTION::portYIELD_WITHIN_API	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	118;"	d	line:118	file:
+tskBLOCKED_CHAR::('B')	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	282;"	d	line:282	file:
+tskDELETED_CHAR::('D')	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	284;"	d	line:284	file:
+tskIDLE_PRIORITY::((UBaseType_t)0U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	192;"	d	line:192
+tskIDLE_STACK_SIZE::configMINIMAL_STACK_SIZE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	111;"	d	line:111	file:
+tskKERNEL_VERSION_BUILD::3	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	91;"	d	line:91
+tskKERNEL_VERSION_MAJOR::8	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	89;"	d	line:89
+tskKERNEL_VERSION_MINOR::2	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	90;"	d	line:90
+tskKERNEL_VERSION_NUMBER::"V8.2.3"	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	88;"	d	line:88
+tskREADY_CHAR::('R')	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	283;"	d	line:283	file:
+tskSTACK_FILL_BYTE::(0xa5U)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	277;"	d	line:277	file:
+tskSUSPENDED_CHAR::('S')	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	285;"	d	line:285	file:
+tskTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	195;"	t	line:195	file:
+tskTaskControlBlock	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	134;"	s	line:134	file:
+u	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	140;"	m	line:140	struct:QueueDefinition	file:
+ucHeap	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	94;"	v	line:94	file:
+ucQueueType	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	154;"	m	line:154	struct:QueueDefinition	file:
+ulCompareMatch	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	321;"	l	line:321
+ulCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3265;"	l	line:3265
+ulLengthInBytes	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	146;"	m	line:146	struct:xMEMORY_REGION
+ulNotifiedValue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	191;"	m	line:191	struct:tskTaskControlBlock	file:
+ulParameters	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	147;"	m	line:147	struct:xMEMORY_REGION
+ulReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3904;"	l	line:3904
+ulRunTimeCounter	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	174;"	m	line:174	struct:xTASK_STATUS
+ulRunTimeCounter	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	176;"	m	line:176	struct:tskTaskControlBlock	file:
+ulStatsAsPercentage	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3750;"	l	line:3750
+ulTaskNotifyTake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3901;"	f	line:3901	signature:( BaseType_t xClearCountOnExit, TickType_t xTicksToWait )
+ulTaskSwitchedInTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	264;"	v	line:264	file:
+ulTotalRunTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	265;"	v	line:265	file:
+ulTotalTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3750;"	l	line:3750
+usCode	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	206;"	l	line:206
+usStackDepth	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	157;"	m	line:157	struct:xTASK_PARAMETERS
+usStackHighWaterMark	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	175;"	m	line:175	struct:xTASK_STATUS
+uxArraySize	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3657;"	l	line:3657
+uxArraySize	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3749;"	l	line:3749
+uxBasePriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	173;"	m	line:173	struct:xTASK_STATUS
+uxBasePriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	163;"	m	line:163	struct:tskTaskControlBlock	file:
+uxCriticalNesting	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	105;"	v	line:105
+uxCriticalNesting	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	154;"	m	line:154	struct:tskTaskControlBlock	file:
+uxCurrentBasePriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1123;"	l	line:1123
+uxCurrentNumberOfTasks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	242;"	v	line:242	file:
+uxCurrentPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	172;"	m	line:172	struct:xTASK_STATUS
+uxIndex	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	97;"	m	line:97	struct:corCoRoutineControlBlock
+uxItemSize	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	147;"	m	line:147	struct:QueueDefinition	file:
+uxLength	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	146;"	m	line:146	struct:QueueDefinition	file:
+uxListRemove	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	212;"	p	line:212	file:	signature:( ListItem_t * ) &( pxCurrentCoRoutine->xGenericListItem ) 
+uxListRemove	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	212;"	f	line:212	signature:( ListItem_t * const pxItemToRemove )
+uxListRemove	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2549;"	p	line:2549	file:
+uxMessagesWaiting	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	145;"	m	line:145	struct:QueueDefinition	file:
+uxMutexesHeld	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	164;"	m	line:164	struct:tskTaskControlBlock	file:
+uxNonApplicationTasks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2798;"	l	line:2798
+uxPendedTicks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	246;"	v	line:246	file:
+uxPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	352;"	l	line:352
+uxPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	96;"	m	line:96	struct:corCoRoutineControlBlock
+uxPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	159;"	m	line:159	struct:xTASK_PARAMETERS
+uxPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	145;"	m	line:145	struct:tskTaskControlBlock	file:
+uxPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3000;"	l	line:3000
+uxPriorityUsedOnEntry	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1123;"	l	line:1123
+uxQueue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1837;"	l	line:1837
+uxQueueNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	153;"	m	line:153	struct:QueueDefinition	file:
+uxQueueType::pcHead	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	109;"	d	line:109	file:
+uxRecursiveCallCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	139;"	m	line:139	union:QueueDefinition::<anonymous>	file:
+uxReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1061;"	l	line:1061
+uxReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1083;"	l	line:1083
+uxReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2645;"	l	line:2645
+uxReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3287;"	l	line:3287
+uxReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3870;"	l	line:3870
+uxSavedInterruptState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1083;"	l	line:1083
+uxSavedInterruptStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1477;"	l	line:1477
+uxSavedInterruptStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1782;"	l	line:1782
+uxSavedInterruptStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4250;"	l	line:4250
+uxSavedInterruptStatus	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4366;"	l	line:4366
+uxSchedulerSuspended	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	260;"	v	line:260	file:
+uxState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	98;"	m	line:98	struct:corCoRoutineControlBlock
+uxTCBNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	158;"	m	line:158	struct:tskTaskControlBlock	file:
+uxTask	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1837;"	l	line:1837
+uxTask	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3181;"	l	line:3181
+uxTaskGetNumberOfTasks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1810;"	f	line:1810	signature:( void )
+uxTaskGetStackHighWaterMark	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3283;"	f	line:3283	signature:( TaskHandle_t xTask )
+uxTaskGetSystemState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1835;"	f	line:1835	signature:( TaskStatus_t * const pxTaskStatusArray, const UBaseType_t uxArraySize, uint32_t * const pulTotalRunTime )
+uxTaskGetTaskNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2643;"	f	line:2643	signature:( TaskHandle_t xTask )
+uxTaskNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	159;"	m	line:159	struct:tskTaskControlBlock	file:
+uxTaskNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	249;"	v	line:249	file:
+uxTaskPriorityGet	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1058;"	f	line:1058	signature:( TaskHandle_t xTask )
+uxTaskPriorityGetFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1080;"	f	line:1080	signature:( TaskHandle_t xTask )
+uxTaskResetEventItemValue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3868;"	f	line:3868	signature:( void )
+uxTasksDeleted	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	225;"	v	line:225	file:
+uxTopCoRoutineReadyPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	96;"	v	line:96	file:
+uxTopReadyPriority	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	244;"	v	line:244	file:
+vApplicationIdleHook	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	196;"	f	line:196	signature:( void )
+vApplicationIdleHook	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2734;"	p	line:2734	file:	signature:( void )
+vApplicationMallocFailedHook	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	139;"	p	line:139	file:	signature:( void )
+vApplicationSetupTickTimerInterrupt	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	199;"	p	line:199	file:	signature:( void )
+vApplicationSetupTickTimerInterrupt	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	319;"	f	line:319	signature:( void )
+vApplicationStackOverflowHook	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	419;"	p	line:419	file:	signature:( TaskHandle_t xTask, char *pcTaskName )
+vApplicationTickHook	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	423;"	p	line:423	file:	signature:( void )
+vCoRoutineAddToDelayedList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	201;"	f	line:201	signature:( TickType_t xTicksToDelay, List_t *pxEventList )
+vCoRoutineAddToDelayedList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	747;"	p	line:747	signature:( TickType_t xTicksToDelay, List_t *pxEventList )
+vCoRoutineSchedule	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	320;"	f	line:320	signature:( void )
+vCoRoutineSchedule	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	215;"	p	line:215	signature:( void )
+vListInitialise	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	79;"	f	line:79	signature:( List_t * const pxList )
+vListInitialiseItem	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	104;"	f	line:104	signature:( ListItem_t * const pxItem )
+vListInsert	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	145;"	f	line:145	signature:( List_t * const pxList, ListItem_t * const pxNewListItem )
+vListInsertEnd	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	116;"	f	line:116	signature:( List_t * const pxList, ListItem_t * const pxNewListItem )
+vPortEndScheduler	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	308;"	f	line:308	signature:( void )
+vPortEnterCritical	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	347;"	f	line:347	signature:( void )
+vPortExitCritical	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	354;"	f	line:354	signature:( void )
+vPortFree	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	149;"	f	line:149	signature:( void *pv )
+vPortInitialiseBlocks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	161;"	f	line:161	signature:( void )
+vTaskAllocateMPURegions	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2984;"	f	line:2984	signature:( TaskHandle_t xTaskToModify, const MemoryRegion_t * const xRegions )
+vTaskDelay	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	922;"	f	line:922	signature:( const TickType_t xTicksToDelay )
+vTaskDelayUntil	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	826;"	f	line:826	signature:( TickType_t * const pxPreviousWakeTime, const TickType_t xTimeIncrement )
+vTaskDelete	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	744;"	f	line:744	signature:( TaskHandle_t xTaskToDelete )
+vTaskEndScheduler	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1622;"	f	line:1622	signature:( void )
+vTaskEnterCritical	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3565;"	f	line:3565	signature:( void )
+vTaskExitCritical	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3595;"	f	line:3595	signature:( void )
+vTaskGetRunTimeStats	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3746;"	f	line:3746	signature:( char *pcWriteBuffer )
+vTaskList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3654;"	f	line:3654	signature:( char * pcWriteBuffer )
+vTaskMissedYield	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2635;"	f	line:2635	signature:( void )
+vTaskNotifyGiveFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4362;"	f	line:4362	signature:( TaskHandle_t xTaskToNotify, BaseType_t *pxHigherPriorityTaskWoken )
+vTaskPlaceOnEventList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2262;"	f	line:2262	signature:( List_t * const pxEventList, const TickType_t xTicksToWait )
+vTaskPlaceOnEventListRestricted	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2389;"	f	line:2389	signature:( List_t * const pxEventList, const TickType_t xTicksToWait, const BaseType_t xWaitIndefinitely )
+vTaskPlaceOnUnorderedEventList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2321;"	f	line:2321	signature:( List_t * pxEventList, const TickType_t xItemValue, const TickType_t xTicksToWait )
+vTaskPriorityInherit	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3418;"	f	line:3418	signature:( TaskHandle_t const pxMutexHolder )
+vTaskPrioritySet	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1120;"	f	line:1120	signature:( TaskHandle_t xTask, UBaseType_t uxNewPriority )
+vTaskResume	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1419;"	f	line:1419	signature:( TaskHandle_t xTaskToResume )
+vTaskSetApplicationTaskTag	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2115;"	f	line:2115	signature:( TaskHandle_t xTask, TaskHookFunction_t pxHookFunction )
+vTaskSetTaskNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2666;"	f	line:2666	signature:( TaskHandle_t xTask, const UBaseType_t uxHandle )
+vTaskSetThreadLocalStoragePointer	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2945;"	f	line:2945	signature:( TaskHandle_t xTaskToSet, BaseType_t xIndex, void *pvValue )
+vTaskSetTimeOutState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2578;"	f	line:2578	signature:( TimeOut_t * const pxTimeOut )
+vTaskStartScheduler	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1543;"	f	line:1543	signature:( void )
+vTaskStepTick	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1926;"	f	line:1926	signature:( const TickType_t xTicksToJump )
+vTaskSuspend	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1284;"	f	line:1284	signature:( TaskHandle_t xTaskToSuspend )
+vTaskSuspendAll	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1633;"	f	line:1633	signature:( void )
+vTaskSwitchContext	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2203;"	f	line:2203	signature:( void )
+x	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2835;"	l	line:2835
+x	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3630;"	l	line:3630
+x	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3657;"	l	line:3657
+x	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3749;"	l	line:3749
+xAlreadyYielded	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1674;"	l	line:1674
+xAlreadyYielded	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	829;"	l	line:829
+xAlreadyYielded	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	925;"	l	line:925
+xCoRoutineCreate	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	144;"	f	line:144	signature:( crCOROUTINE_CODE pxCoRoutineCode, UBaseType_t uxPriority, UBaseType_t uxIndex )
+xCoRoutineCreate	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	173;"	p	line:173	signature:( crCOROUTINE_CODE pxCoRoutineCode, UBaseType_t uxPriority, UBaseType_t uxIndex )
+xCoRoutineRemoveFromEventList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	370;"	f	line:370	signature:( const List_t *pxEventList )
+xCoRoutineRemoveFromEventList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	756;"	p	line:756	signature:( const List_t *pxEventList )
+xCoRoutineTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	97;"	v	line:97	file:
+xConstTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1958;"	l	line:1958
+xConstTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2596;"	l	line:2596
+xConstTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	839;"	l	line:839
+xDelayedCoRoutineList1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	88;"	v	line:88	file:
+xDelayedCoRoutineList2	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	89;"	v	line:89	file:
+xDelayedTaskList1	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	216;"	v	line:216	file:
+xDelayedTaskList2	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	217;"	v	line:217	file:
+xEventListItem	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	95;"	m	line:95	struct:corCoRoutineControlBlock
+xEventListItem	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	144;"	m	line:144	struct:tskTaskControlBlock	file:
+xExpectedIdleTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2751;"	l	line:2751
+xGenericListItem	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\croutine.h	94;"	m	line:94	struct:corCoRoutineControlBlock
+xGenericListItem	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	143;"	m	line:143	struct:tskTaskControlBlock	file:
+xHandle	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	168;"	m	line:168	struct:xTASK_STATUS
+xHandle	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	181;"	m	line:181	struct:QUEUE_REGISTRY_ITEM	file:
+xHandle	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	584;"	l	line:584
+xIdleTaskHandle	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	237;"	v	line:237	file:
+xInitialStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	209;"	l	line:209
+xItemValue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1942;"	l	line:1942
+xLastTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	97;"	v	line:97	file:
+xLastWakeTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.c	157;"	l	line:157
+xListIsEmpty	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3034;"	l	line:3034
+xMEMORY_REGION	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	143;"	s	line:143
+xMPUSettings	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	139;"	m	line:139	struct:tskTaskControlBlock	file:
+xNewLib_reent	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	187;"	m	line:187	struct:tskTaskControlBlock	file:
+xNextFreeByte	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	95;"	v	line:95	file:
+xNextTaskUnblockTime	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	250;"	v	line:250	file:
+xNumOfOverflows	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	248;"	v	line:248	file:
+xOverflowCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	136;"	m	line:136	struct:xTIME_OUT
+xPassedTicks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	97;"	v	line:97	file:
+xPendingReadyCoRoutineList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	92;"	v	line:92	file:
+xPendingReadyList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	220;"	v	line:220	file:
+xPortGetFreeHeapSize	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	168;"	f	line:168	signature:( void )
+xPortStartScheduler	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\port.c	292;"	f	line:292	signature:( void )
+xQUEUE	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	161;"	t	line:161	file:
+xQueueAltPeek::(xQueue,pvBuffer,xTicksToWait)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1460;"	d	line:1460
+xQueueAltReceive::(xQueue,pvBuffer,xTicksToWait)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1459;"	d	line:1459
+xQueueAltSendToBack::(xQueue,pvItemToQueue,xTicksTo	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1458;"	d	line:1458
+xQueueAltSendToFront::(xQueue,pvItemToQueue,xTicksTo	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1457;"	d	line:1457
+xQueueCRReceive	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1474;"	p	line:1474	signature:( QueueHandle_t xQueue, void *pvBuffer, TickType_t xTicksToWait )
+xQueueCRReceiveFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1472;"	p	line:1472	signature:( QueueHandle_t xQueue, void *pvBuffer, BaseType_t *pxTaskWoken )
+xQueueCRSend	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1473;"	p	line:1473	signature:( QueueHandle_t xQueue, const void *pvItemToQueue, TickType_t xTicksToWait )
+xQueueCRSendFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1471;"	p	line:1471	signature:( QueueHandle_t xQueue, const void *pvItemToQueue, BaseType_t xCoRoutinePreviouslyWoken )
+xQueueCreate::(uxQueueLength,uxItemSize)xQue	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	173;"	d	line:173
+xQueueCreateCountingSemaphore	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	582;"	f	line:582	signature:( const UBaseType_t uxMaxCount, const UBaseType_t uxInitialCount )
+xQueueCreateMutex	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	391;"	f	line:391	signature:( const uint8_t ucQueueType )
+xQueueGenericCreate	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	313;"	f	line:313	signature:( const UBaseType_t uxQueueLength, const UBaseType_t uxItemSize, const uint8_t ucQueueType )
+xQueueGenericReset	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	260;"	f	line:260	signature:( QueueHandle_t xQueue, BaseType_t xNewQueue )
+xQueueGenericReset	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	361;"	p	line:361	file:
+xQueueGenericSend	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	440;"	p	line:440	file:	signature:( pxNewQueue, NULL, ( TickType_t ) 0U, queueSEND_TO_BACK )
+xQueueGenericSend	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	514;"	p	line:514	file:
+xQueueGetMutexHolder	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	455;"	f	line:455	signature:( QueueHandle_t xSemaphore )
+xQueueGiveMutexRecursive	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	485;"	f	line:485	signature:( QueueHandle_t xMutex )
+xQueueOverwrite::(xQueue,pvItemToQueue)xQueueGe	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	504;"	d	line:504
+xQueueOverwriteFromISR::(xQueue,pvItemToQueue,pxHigher	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1187;"	d	line:1187
+xQueuePeek::(xQueue,pvBuffer,xTicksToWait)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	688;"	d	line:688
+xQueueReceive::(xQueue,pvBuffer,xTicksToWait)	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	814;"	d	line:814
+xQueueRegistry	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	192;"	v	line:192
+xQueueRegistryItem	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	182;"	t	line:182	file:
+xQueueReset::(xQueue)xQueueGenericReset(xQu	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1496;"	d	line:1496
+xQueueSend::(xQueue,pvItemToQueue,xTicksTo	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	421;"	d	line:421
+xQueueSendFromISR::(xQueue,pvItemToQueue,pxHigher	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1261;"	d	line:1261
+xQueueSendToBack::(xQueue,pvItemToQueue,xTicksTo	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	337;"	d	line:337
+xQueueSendToBackFromISR::(xQueue,pvItemToQueue,pxHigher	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1100;"	d	line:1100
+xQueueSendToFront::(xQueue,pvItemToQueue,xTicksTo	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	255;"	d	line:255
+xQueueSendToFrontFromISR::(xQueue,pvItemToQueue,pxHigher	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\queue.h	1029;"	d	line:1029
+xQueueSizeInBytes	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	316;"	l	line:316
+xQueueTakeMutexRecursive	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	540;"	f	line:540	signature:( QueueHandle_t xMutex, TickType_t xTicksToWait )
+xRegions	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	161;"	m	line:161	struct:xTASK_PARAMETERS
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	146;"	l	line:146
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	373;"	l	line:373
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	317;"	l	line:317
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	487;"	l	line:487
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	542;"	l	line:542
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1375;"	l	line:1375
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1545;"	l	line:1545
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1647;"	l	line:1647
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1781;"	l	line:1781
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2145;"	l	line:2145
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2176;"	l	line:2176
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2468;"	l	line:2468
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2536;"	l	line:2536
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2588;"	l	line:2588
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3375;"	l	line:3375
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3392;"	l	line:3392
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3487;"	l	line:3487
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4017;"	l	line:4017
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4143;"	l	line:4143
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4249;"	l	line:4249
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4447;"	l	line:4447
+xReturn	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	553;"	l	line:553
+xRunPrivileged	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	568;"	l	line:568
+xRxLock	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	149;"	m	line:149	struct:QueueDefinition	file:
+xSchedulerRunning	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	245;"	v	line:245	file:
+xShouldDelay	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	829;"	l	line:829
+xSuspendedTaskList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	231;"	v	line:231	file:
+xSwitchRequired	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1943;"	l	line:1943
+xTASK_PARAMETERS	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	153;"	s	line:153
+xTASK_STATUS	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	166;"	s	line:166
+xTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2117;"	l	line:2117
+xTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2144;"	l	line:2144
+xTCB	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2175;"	l	line:2175
+xTIME_OUT	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	134;"	s	line:134
+xTaskCallApplicationTaskHook	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2173;"	f	line:2173	signature:( TaskHandle_t xTask, void *pvParameter )
+xTaskCheckForTimeOut	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2586;"	f	line:2586	signature:( TimeOut_t * const pxTimeOut, TickType_t * const pxTicksToWait )
+xTaskCreate::(pvTaskCode,pcName,usStackDept	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	345;"	d	line:345
+xTaskCreateRestricted::(x,pxCreatedTask)xTaskGenericC	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	414;"	d	line:414
+xTaskGenericCreate	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	551;"	f	line:551	signature:( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions )
+xTaskGenericNotify	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4139;"	f	line:4139	signature:( TaskHandle_t xTaskToNotify, uint32_t ulValue, eNotifyAction eAction, uint32_t *pulPreviousNotificationValue )
+xTaskGenericNotifyFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4245;"	f	line:4245	signature:( TaskHandle_t xTaskToNotify, uint32_t ulValue, eNotifyAction eAction, uint32_t *pulPreviousNotificationValue, BaseType_t *pxHigherPriorityTaskWoken )
+xTaskGetApplicationTaskTag	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2142;"	f	line:2142	signature:( TaskHandle_t xTask )
+xTaskGetCurrentTaskHandle	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3373;"	f	line:3373	signature:( void )
+xTaskGetIdleTaskHandle	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1909;"	f	line:1909	signature:( void )
+xTaskGetSchedulerState	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3390;"	f	line:3390	signature:( void )
+xTaskGetTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1764;"	f	line:1764	signature:( void )
+xTaskGetTickCountFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1779;"	f	line:1779	signature:( void )
+xTaskIncrementTick	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1939;"	f	line:1939	signature:( void )
+xTaskNotify::(xTaskToNotify,ulValue,eAction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	1476;"	d	line:1476
+xTaskNotifyAndQuery::(xTaskToNotify,ulValue,eAction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	1477;"	d	line:1477
+xTaskNotifyAndQueryFromISR::(xTaskToNotify,ulValue,eAction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	1568;"	d	line:1568
+xTaskNotifyFromISR::(xTaskToNotify,ulValue,eAction	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	1567;"	d	line:1567
+xTaskNotifyGive::(xTaskToNotify)xTaskGenericNot	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	1689;"	d	line:1689
+xTaskNotifyStateClear	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	1829;"	p	line:1829	signature:( TaskHandle_t xTask )
+xTaskNotifyStateClear	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4444;"	f	line:4444	signature:( TaskHandle_t xTask )
+xTaskNotifyWait	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4014;"	f	line:4014	signature:( uint32_t ulBitsToClearOnEntry, uint32_t ulBitsToClearOnExit, uint32_t *pulNotificationValue, TickType_t xTicksToWait )
+xTaskNumber	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	170;"	m	line:170	struct:xTASK_STATUS
+xTaskPriorityDisinherit	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3484;"	f	line:3484	signature:( TaskHandle_t const pxMutexHolder )
+xTaskRemoveFromEventList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2465;"	f	line:2465	signature:( const List_t * const pxEventList )
+xTaskRemoveFromUnorderedEventList	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2533;"	f	line:2533	signature:( ListItem_t * pxEventListItem, const TickType_t xItemValue )
+xTaskResumeAll	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MemMang\heap_1.c	133;"	p	line:133	file:
+xTaskResumeAll	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1671;"	f	line:1671	signature:( void )
+xTaskResumeAll	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1899;"	p	line:1899	file:
+xTaskResumeAll	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2781;"	p	line:2781	file:
+xTaskResumeAll	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3044;"	p	line:3044	file:
+xTaskResumeFromISR	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1473;"	f	line:1473	signature:( TaskHandle_t xTaskToResume )
+xTasksWaitingTermination	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	224;"	v	line:224	file:
+xTasksWaitingToReceive	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	143;"	m	line:143	struct:QueueDefinition	file:
+xTasksWaitingToSend	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	142;"	m	line:142	struct:QueueDefinition	file:
+xTickCount	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	243;"	v	line:243	file:
+xTicks	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1766;"	l	line:1766
+xTimeOnEntering	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\include\task.h	137;"	m	line:137	struct:xTIME_OUT
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\croutine.c	203;"	l	line:203
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2264;"	l	line:2264
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2323;"	l	line:2323
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	2391;"	l	line:2391
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	3903;"	l	line:3903
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	4016;"	l	line:4016
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	828;"	l	line:828
+xTimeToWake	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	924;"	l	line:924
+xTxLock	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\queue.c	150;"	m	line:150	struct:QueueDefinition	file:
+xUsingStaticallyAllocatedStack	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	140;"	m	line:140	struct:tskTaskControlBlock	file:
+xValueOfInsertion	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\list.c	148;"	l	line:148
+xYieldPending	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	247;"	v	line:247	file:
+xYieldRequired	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1124;"	l	line:1124
+xYieldRequired	C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\tasks.c	1475;"	l	line:1475

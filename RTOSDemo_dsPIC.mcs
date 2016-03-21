@@ -1,0 +1,137 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\main.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\source\croutine.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File002]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\source\portable\MemMang\heap_1.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File003]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\source\list.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File004]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\source\portable\MPLAB\PIC24_dsPIC\port.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File005]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1
+[File006]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\source\queue.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File007]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\source\tasks.o
+Folder=Intermediary
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=-fno-omit-frame-pointer -g -Wall -DMPLAB_DSPIC_PORT -O2 -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File008]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\RTOSDemo_dsPIC.cof
+Folder=Output
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=--heap=0 --defsym=__ICD2RAM=1 -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File009]
+Location=C:\Users\RACHOT\Desktop\FreeRTOSV8.2.3\FreeRTOS\Demo\dsPIC_MPLAB\RTOSDemo_dsPIC.hex
+Folder=Output
+DeviceName=dsPIC30F4011
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.;.\include;..\include;..\..\include;..\..\..\include;..\..\Source\include;..\..\..\Source\include;..\Demo\dsPIC_MPLAB;..\..\..\Demo\dsPIC_MPLAB;..\..\..\..\Demo\dsPIC_MPLAB;.\FileSystem;..\Common\include;..\..\Common\include||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|main.c|..\..\source\croutine.c|..\..\source\portable\MemMang\heap_1.c|..\..\source\list.c|..\..\source\portable\MPLAB\PIC24_dsPIC\port.c|..\..\Source\portable\MPLAB\PIC24_dsPIC\portasm_dsPIC.S|..\..\source\queue.c|..\..\source\tasks.c||<obj>||<lib>||<lkr>|p30f4011.gld||
+SuiteArgsString=
+ToolArgsString=--heap=0 --defsym=__ICD2RAM=1 -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-as.exe
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
