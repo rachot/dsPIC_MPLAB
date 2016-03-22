@@ -108,6 +108,9 @@
 #include "queue.h"
 #include "croutine.h"
 
+#include "uart.h"
+
+static char buf[20];
 
 /* Setup Configuration For ET-BASE dsPIC30F4011 */
 _FOSC(CSW_FSCM_OFF & XT_PLL16);								// Disable Clock Switching,Enable Fail-Salf Clock
@@ -117,8 +120,7 @@ _FBORPOR(PBOR_OFF & PWRT_64 & MCLR_EN);					    // Disable Brown-Out ,Power ON =
 _FGS(CODE_PROT_OFF);										// Code Protect OFF
 /* End Configuration For ET-BASE dsPIC30F4011 */
 
-volatile int Cnt_A, Cnt_B;  
-
+volatile int Cnt_A, Cnt_B;    
 
 /* The check task may require a bit more stack as it calls sprintf(). */
 #define mainCHECK_TAKS_STACK_SIZE			( configMINIMAL_STACK_SIZE * 2 )
@@ -144,52 +146,71 @@ it is converted to a string. */
 #define mainMAX_STRING_LENGTH				( 20 )
 
 
-static void prvSetupHardware( void );
+void init_uart(void);
 
-#define TASK_A_PRIO      3  
-#define TASK_B_PRIO      2  
-#define TASK_A_STK      100  
-#define TASK_B_STK      100
+static void prvSetupHardware( void );
 
 
 static void Task_A( void *pvParameters )  
 {     
    portTickType xLastWakeTime = xTaskGetTickCount ();  
-   Cnt_A = 0;  
+
    for( ;; )  
    {     
-      vTaskDelayUntil( &xLastWakeTime, 10 );  
-      Cnt_A += 1;     
+      vTaskDelayUntil( &xLastWakeTime, 100 );  
+      Cnt_A += 1;    
+		
    }        
 } 
 
 
 static void Task_B( void *pvParameters )  
-
 {     
+const TickType_t xDelay = 100 / portTICK_PERIOD_MS;
+
    Cnt_B = 0;  
    for( ;; )  
    {     
-      vTaskDelay( 15 );  
-      Cnt_B += 1;     
-   }        
+      vTaskDelay(xDelay );  
+      LATBbits.LATB0 ^= 1;   
+   }    
 } 
+static void Task_C( void *pvParameters )  
+{     
+const TickType_t xDelay = 100 / portTICK_PERIOD_MS;
 
+ portTickType xLastWakeTime = xTaskGetTickCount ();  
+
+   for( ;; )  
+   {     
+       vTaskDelay(xDelay );   
+	
+      sprintf(buf,"test %d\r\n",Cnt_A);  
+	  putsUART2(buf);   
+   }    
+}
+
+	
 
 int main( void )
 {
 	prvSetupHardware();
 
-   xTaskCreate( Task_A, ( signed char * ) "Task_A", TASK_A_STK, NULL, TASK_A_PRIO, NULL );  
-   xTaskCreate( Task_B, ( signed char * ) "Task_B", TASK_B_STK, NULL, TASK_B_PRIO, NULL );  
+   xTaskCreate( Task_A, ( signed char * ) "Task_A", 50, NULL, 1, NULL );  
+   xTaskCreate( Task_B, ( signed char * ) "Task_B", 50, NULL, 2, NULL );  
+   xTaskCreate( Task_C, ( signed char * ) "Task_C", 150, NULL, 3, NULL );  
 
-   vTaskStartScheduler();  
+   vTaskStartScheduler(); 
+ 
 	return 0;
 }
 
 static void prvSetupHardware( void )
 {
 	// Inititial hardware
+	TRISBbits.TRISB0 = 0;
+	init_uart();
+    Cnt_A = 0;  
 }
 
 
@@ -199,4 +220,47 @@ void vApplicationIdleHook( void )
 	vCoRoutineSchedule();
 }
 /*-----------------------------------------------------------*/
+
+void init_uart(void)
+{		  
+  CloseUART2();												// Disable UART1 Before New Config
+
+   // Config UART1 Interrupt ontrol
+  ConfigIntUART2(UART_RX_INT_DIS &							// ENABLE RX Interrupt
+    		     UART_RX_INT_PR2 &							// RX Interrupt Priority = 2
+    		     UART_TX_INT_DIS &
+    		     UART_TX_INT_PR3 );
+    		     
+										// ET-BASE dsPIC30F4011 UART Baudrate = 9600 BPS = 191 //  Buad Rate 19200 = 95  ,, Buadrate 38400 = 47 ,  Buadrate 115200 = 15
+  			
+  			
+  			// Open UART1 = Mode,Status,Baudrate              
+  OpenUART2(UART_EN	&										// Enable UART(UART Mode)
+            UART_IDLE_STOP &								// Disable UART in IDLE Mode 
+ 			UART_ALTRX_ALTTX & 								// Select U1TX=RC13,U1RX=RC14
+            UART_DIS_WAKE &									// Disable Wake-Up
+			UART_DIS_LOOPBACK &								// Disable Loop Back
+			UART_DIS_ABAUD &								// Disable Auto Baudrate
+  			UART_NO_PAR_8BIT &								// UART = 8 Bit, No Parity
+ 			UART_1STOPBIT,									// UART = 1 Stop Bit
+
+	  		// Config UART1 Status
+  			UART_INT_TX & 									// Select Interrupt After TX Complete
+	 		UART_TX_PIN_NORMAL &							// Normal U1TX Mode
+ 			UART_TX_ENABLE &								// Enable U1TX
+ 	 		UART_INT_RX_CHAR &							// Flasg Set After RX Complete 
+  			UART_ADR_DETECT_DIS &              				// Disable Check Address 
+			UART_RX_OVERRUN_CLEAR,							// Clear Overrun Flag
+
+  			// ET-BASE dsPIC30F4011 Hardware Board
+  			// XTAL = 7.3728MHz
+  			// Fosc = 7.3728 MHz x 16 = 117.9648 MHz
+  			// Fcy(UART) = Fosc / 4 
+  			//           = 117.9648 / 4 = 29.4912 MHz
+  			// U1BRG = [Fcy/(16xBaud)]-1
+  			//       = [29.4912 MHz / (16x9600)] - 1
+  			//       = 191 = BFH			
+  			191);											// ET-BASE dsPIC30F4011 UART Baudrate = 9600 BPS = 191 //  Buad Rate 19200 = 95  ,, Buadrate 38400 = 47  , Buadrate 115200 = 15
+}
+
 
