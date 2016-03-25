@@ -107,10 +107,29 @@
 #include "task.h"
 #include "queue.h"
 #include "croutine.h"
+#include "timers.h"
 
 #include "uart.h"
+#include "qei.h"   
+#include "adc10.h"
 
-static char buf[20];
+
+// PID parameter
+float SP,PV;
+float kp;	
+float ki;	
+float kd;
+float ee;	
+float pterm;
+float iterm;
+float dterm;
+float pid;	
+float lastee;		
+float sumee;
+
+// ADC
+float voltage;
+
 
 /* Setup Configuration For ET-BASE dsPIC30F4011 */
 _FOSC(CSW_FSCM_OFF & XT_PLL16);								// Disable Clock Switching,Enable Fail-Salf Clock
@@ -134,8 +153,8 @@ volatile int Cnt_A, Cnt_B;
 /* The frequency at which the "fast interrupt test" interrupt will occur. */
 #define mainTEST_INTERRUPT_FREQUENCY		( 20000 )
 
-/* The number of processor clocks we expect to occur between each "fast
-interrupt test" interrupt. */
+/* The number of processor clocks we expect to occur between each "fast interrupt test" interrupt. */
+
 #define mainEXPECTED_CLOCKS_BETWEEN_INTERRUPTS ( configCPU_CLOCK_HZ / mainTEST_INTERRUPT_FREQUENCY )
 
 /* The number of nano seconds between each processor clock. */
@@ -147,58 +166,160 @@ it is converted to a string. */
 
 
 void init_uart(void);
-
+void Init_QEI(void);
 static void prvSetupHardware( void );
+void init_timer(void);
+void adc_init(void);
 
+int motor_position;
+int keypad_num; 
+
+TaskHandle_t xTimerGetTimerDaemonTaskHandle( void );
 
 static void Task_A( void *pvParameters )  
-{     
+{ 
+int key[4];
    portTickType xLastWakeTime = xTaskGetTickCount ();  
 
    for( ;; )  
    {     
-      vTaskDelayUntil( &xLastWakeTime, 100 );  
+      vTaskDelayUntil( &xLastWakeTime, 10);  
+	if( Cnt_A > 10000)
+		 Cnt_A =0;
+
       Cnt_A += 1;    
+	  if(PORTDbits.RD0 == 1)
+		key[0] = 1;
+	  else
+		key[0] = 0;
+
+	  if(PORTDbits.RD1 == 1)
+		key[1] = 2;
+	  else
+		key[1] = 0;
+
+	  if(PORTDbits.RD2 == 1)
+		key[2] = 4;
+	  else
+		key[2] = 0;
+
+	  if(PORTDbits.RD3 == 1)
+		key[3] = 8;
+	  else
+		key[3] = 0;
 		
+	    keypad_num = key[0]+key[1]+key[2]+key[3];		
    }        
 } 
 
 
 static void Task_B( void *pvParameters )  
 {     
-const TickType_t xDelay = 100 / portTICK_PERIOD_MS;
+const TickType_t xDelay = 1 / portTICK_PERIOD_MS;
 
-   Cnt_B = 0;  
    for( ;; )  
    {     
-      vTaskDelay(xDelay );  
-      LATBbits.LATB0 ^= 1;   
+  	 
    }    
 } 
 static void Task_C( void *pvParameters )  
 {     
-const TickType_t xDelay = 100 / portTICK_PERIOD_MS;
-
- portTickType xLastWakeTime = xTaskGetTickCount ();  
+const TickType_t xDelay = 10 / portTICK_PERIOD_MS;
+static unsigned char buf[50];
 
    for( ;; )  
    {     
-       vTaskDelay(xDelay );   
-	
-      sprintf(buf,"test %d\r\n",Cnt_A);  
+      vTaskDelay(xDelay );   
+	  sprintf(buf,"\fDebugger dsPIC30F4011 with RTOS\r\n");  
+	  putsUART2(buf);   
+      sprintf(buf,"cnt : %d\r\n",Cnt_A);  
 	  putsUART2(buf);   
    }    
 }
 
-	
+static void Task_D( void *pvParameters )  
+{ 
+const TickType_t xDelay = 10 / portTICK_PERIOD_MS;
+/*int k;
+float temp;
+float buff1_sum;
+
+	for( ;; )  
+    { 
+		for(k=1;k<=1500;k++)  // Low pass
+		{
+			ADCON1bits.SAMP = 1;                            
+	        ConvertADC10();                 				
+	        temp= temp + ReadADC10(0);                    	// Current
+		}
+			buff1_sum =temp/1500;
+			voltage = buff1_sum;
+		vTaskDelay(xDelay ); 
+	}*/
+}
+
+#define NUM_TIMERS 1
+
+ // An array to hold handles to the created timers. 
+ TimerHandle_t xTimers[ NUM_TIMERS ];
+
+ // An array to hold a count of the number of times each timer expires. 
+ long lExpireCounters[ NUM_TIMERS ] = { 0 };
+
+ // Define a callback function that will be used by multiple timer instances.
+ //The callback function does nothing but count the number of times the
+ //associated timer expires, and stop the timer once the timer has expired
+ //10 times. 
+ void vTimerCallback( TimerHandle_t pxTimer )
+ {
+ 	  PV = (float)POSCNT*0.92307692307692307692307692307692;
+	  ee = ((int)50 -(int)PV);			
+	  pterm = (ee*kp);
+	  iterm = (ki * sumee);    
+      dterm = (kd * (ee-lastee));
+	  sumee += ee;
+	  lastee = ee;		
+	  pid = pterm + iterm + dterm;
+//	  vTaskDelay(xDelay );    
+     // LATBbits.LATB0 ^= 1; 
+ }
+
 
 int main( void )
 {
 	prvSetupHardware();
 
-   xTaskCreate( Task_A, ( signed char * ) "Task_A", 50, NULL, 1, NULL );  
-   xTaskCreate( Task_B, ( signed char * ) "Task_B", 50, NULL, 2, NULL );  
-   xTaskCreate( Task_C, ( signed char * ) "Task_C", 150, NULL, 3, NULL );  
+   //  xTaskCreate( vTaskCode, "NAME", STACK_SIZE, &ucParameterToPass, tskIDLE_PRIORITY,&xHandle );
+   xTaskCreate( Task_A, ( signed char * ) "Cnt", 50, NULL, 1, NULL );  // STACK_SIZE = 50 bytes  in program memory
+   //xTaskCreate( Task_B, ( signed char * ) "Task_B", 100, NULL, 3, NULL );  
+   xTaskCreate( Task_C, ( signed char * ) "Serial", 100, NULL, 3, NULL );  
+   //xTaskCreate( Task_D, ( signed char * ) "ADC", 10, NULL, 4, NULL );  
+
+ 
+ long x;
+
+     // Create then start some timers.  Starting the timers before the RTOS
+     //scheduler has been started means the timers will start running
+     //immediately that the RTOS scheduler starts. 
+     for( x = 0; x < NUM_TIMERS; x++ )
+     {
+         xTimers[ x ] = xTimerCreate("PID", 1, pdTRUE,( void * ) x,vTimerCallback);  // Call back every 1 tick
+
+         if( xTimers[ x ] == NULL )
+         {
+             // The timer was not created. 
+         }
+         else
+         {
+             // Start the timer.  No block time is specified, and even if one
+             //was it would be ignored because the RTOS scheduler has not yet
+             //been started. 
+             if( xTimerStart( xTimers[ x ], 0 ) != pdPASS )
+             {
+                 // The timer could not be set into the Active state. 
+             }
+         }
+     }
 
    vTaskStartScheduler(); 
  
@@ -207,10 +328,19 @@ int main( void )
 
 static void prvSetupHardware( void )
 {
+	ADPCFG = 0xFFFF;
 	// Inititial hardware
-	TRISBbits.TRISB0 = 0;
+	//TRISBbits.TRISB0 = 0;
+	TRISDbits.TRISD0 = 1;
+	TRISDbits.TRISD1 = 1;
+	TRISDbits.TRISD2 = 1;
+	TRISDbits.TRISD3 = 1;
+	
 	init_uart();
+	Init_QEI();
+	adc_init();
     Cnt_A = 0;  
+	motor_position = 0;
 }
 
 
@@ -263,4 +393,67 @@ void init_uart(void)
   			191);											// ET-BASE dsPIC30F4011 UART Baudrate = 9600 BPS = 191 //  Buad Rate 19200 = 95  ,, Buadrate 38400 = 47  , Buadrate 115200 = 15
 }
 
+void Init_QEI(void)
+{
+  // Enable QEI Interrupt and Priority to "1"
+  ConfigIntQEI( QEI_INT_ENABLE );     // Set the Interrupt enable bit
+
+  OpenQEI(QEI_DIR_SEL_CNTRL &       // Control/Status Bit, QEICON<11>, Defines Timer Counter (POSCNT) Direction  
+          QEI_INT_CLK &             // Internal clock (FOSC/4)
+          QEI_INDEX_RESET_DISABLE & // Index Pulse does not reset Position Counter
+          QEI_CLK_PRESCALE_256 &    // QEI 1:256 prescale value
+          QEI_GATED_ACC_DISABLE &   // QEI Timer gated time accumulation enable
+          QEI_LOGIC_CONTROL_IO &    // QEI logic controls state of I/O pin
+          QEI_INPUTS_NOSWAP &       // QEI Phase A and Phase B inputs not swapped
+          QEI_MODE_x4_MATCH &       // x4 mode with position counter reset by match (MAXCNT)
+          QEI_IDLE_CON,             // QEI Discontinue module operation when device enters a idle mode.
+          0                         // configures the Digital Filters (DFLTCON)
+         );
+  POSCNT = 0;                      // Set Position Counter Register
+  MAXCNT = 65535;                 // Set Maximum Count Register
+
+}
+
+void adc_init(void)
+{
+unsigned int Channel, PinConfig, Scanselect, Adcon3_reg, Adcon2_reg,Adcon1_reg;
+                ADCON1bits.ADON = 0;                    			// Turn off ADC     
+                Channel = ADC_CH0_POS_SAMPLEA_AN0 &					// Channel 0 positive input select AN0
+                          ADC_CH0_POS_SAMPLEA_AN1 & 				// Channel 0 positive input select AN1
+                          ADC_CH0_POS_SAMPLEA_AN2 & 				// Channel 0 positive input select AN2
+                          ADC_CH0_POS_SAMPLEA_AN3 & 				// Channel 0 positive input select AN3           
+						  ADC_CH0_POS_SAMPLEA_AN4 & 				// Channel 0 positive input select AN4           
+						  ADC_CH0_POS_SAMPLEA_AN5 & 				// Channel 0 positive input select AN5           
+                          ADC_CH0_NEG_SAMPLEA_NVREF ;             	// Channel 0 negative VREF
+
+                SetChanADC10(Channel);                               // Set channel configuration             
+                ConfigIntADC10(ADC_INT_DISABLE);                     // Disable interrupt for ADC
+                PinConfig = ENABLE_AN0_ANA &                         // Enable AN0-AN3 analog port
+                            ENABLE_AN1_ANA &
+                            ENABLE_AN2_ANA &
+                            ENABLE_AN3_ANA &                                          
+							ENABLE_AN4_ANA &                                          
+							ENABLE_AN5_ANA ;                                          
+                Scanselect = SKIP_SCAN_AN6 &                         // Scan for AN0-AN3
+                             SKIP_SCAN_AN7 &						 // Skip Scan for AN4-A7
+                             SKIP_SCAN_AN8 &
+                             SKIP_SCAN_AN9;                                                              
+                Adcon3_reg = ADC_SAMPLE_TIME_1 &                 	// Sample for 10 time
+                             ADC_CONV_CLK_INTERNAL_RC &             // Internal Clock
+                             ADC_CONV_CLK_Tcy; 
+                Adcon2_reg = ADC_VREF_AVDD_AVSS &                   // Vref at Vdd and Vss
+                             ADC_SCAN_ON &                          // Enable scan for ADC
+                             ADC_ALT_BUF_OFF &                      // Disable alternate buffer
+                             ADC_ALT_INPUT_OFF &                    // Disable alternate input
+                             ADC_CONVERT_CH0&                       // Select CH0 convert         
+                             ADC_SAMPLES_PER_INT_16;                // 16 sample between interrupt
+                Adcon1_reg = ADC_MODULE_ON &                        // Enable module ADC
+                             ADC_IDLE_CONTINUE &                    // ADC run on idle mode
+                             ADC_FORMAT_INTG &                      // Output value integer format
+                             ADC_CLK_MANUAL &                       // ADC manual clock
+                             ADC_SAMPLE_SIMULTANEOUS &              // ADC sampling simultaneous
+                             ADC_AUTO_SAMPLING_ON;                  // ADC auto sampling    
+                    
+OpenADC10(Adcon1_reg, Adcon2_reg,Adcon3_reg,PinConfig, Scanselect);  // Turn on ADC module     
+}
 
